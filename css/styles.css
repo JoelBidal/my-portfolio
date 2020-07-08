@@ -1,0 +1,234 @@
+.main-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(228, 156, 250);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.zero-container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zero-container img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.first-container{
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-1, .box-2, .box-3, .box-4 {width: 100%;}
+.box-4{margin-bottom: 20px;}
+
+.box-1{
+    height: 81px;
+    display: flex;
+    align-items: center;
+}
+
+.box-1 .info-github{
+    position: relative;
+    right: 15px;
+    bottom: 20px;
+}
+
+.box-1 img {
+    max-width: 70px;
+    height: auto;
+    position: relative;
+    top: 7px;
+    left: 60px;
+    transform: rotate(9deg);
+    filter: invert();
+}
+
+.box-1 .github-link{
+    width: 35px;
+    height: 35px;
+    padding: 0px 70px 7px 70px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    background: #e0ff22;
+    transform: rotate(8deg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github-link:hover{background:#fff;}
+
+.box-1 a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    font-family: Sarabun;
+    font-size: 25px;
+}
+
+.box-1 h1{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-size: 70px;
+    font-family: Sarabun;
+    font-weight: 800;
+}
+
+.box-2 h2{
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: Sarabun;
+    font-weight: 800;
+    color: #fff;
+}
+
+.box-3{
+    display: flex;
+    align-items: center;
+}
+
+.box-3 h3{
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-size: 70px;
+    font-family: Sarabun;
+    font-weight: 800;
+}
+
+.box-3 .boots{
+    width: 20px;
+    height: 30px;
+    padding: 1px 70px 7px 70px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    background: #e0ff22;
+    transform: rotate(-8deg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    right: 100px;
+    top: 35px;
+}
+
+.box-3 .boots h5{
+    color: #000;
+    font-weight: 800;
+    font-family: Sarabun;
+    font-size: 22px;
+}
+
+.box-4{
+    display: flex;
+    align-items: center;
+}
+
+.box-4 .ux-ui{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    background: #e0ff22;
+    transform: rotate(12deg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    right: 20px;
+    top: 40px;
+}
+
+.box-4 .ux-ui h6{
+    color: #000;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: Sarabun;
+}
+
+.box-4 h4{
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: Sarabun;
+    font-weight: 800;
+    color: #fff;
+}
+
+/* Segunda sección, trabajos */
+
+.second-section{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+.second-section .header-work,
+.second-section .gif-work{
+    max-width: 450px;
+    border: 2px solid #eee;
+    margin: 7px;
+}
+
+.header-work{opacity: 1;}
+.second-section .gif-work{
+    position: absolute;
+    opacity: 0;
+}
+
+.header-work:hover{
+    opacity: 0;
+}
+
+
+.gif-work:hover{opacity: 1; transition: ease-out 0.6s;}
+
+.second-section a{
+    text-decoration: none;
+}
+
+
+.my-work{
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -220px;
+    margin: 0 50px;
+}
+
+.my-work h2{
+    text-align: end;
+    font-family: Sarabun;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.my-work h1{
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px rgb(228, 156, 250);
+    color: transparent;
+    font-size: 120px;
+    font-family: Sarabun;
+    font-weight: 800;
+}
