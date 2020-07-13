@@ -19,9 +19,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 250px;
-    height: 250px;
-    border-radius: 100%;
+    max-width: 280px;
+    border-radius: 50%;
 }
 
 .first-container{
@@ -126,7 +125,7 @@
 
     position: relative;
     right: 100px;
-    top: 35px;
+    bottom: 35px;
 }
 
 .box-3 .boots h5{
@@ -154,8 +153,8 @@
     justify-content: center;
 
     position: relative;
-    right: 20px;
-    top: 40px;
+    right: 27px;
+    top: 35px;
 }
 
 .box-4 .ux-ui h6{
@@ -231,4 +230,131 @@
     font-size: 120px;
     font-family: Sarabun;
     font-weight: 800;
+}
+
+
+/* Responsive Design */
+/* Screen XL */
+
+@media screen and (max-width: 2500px){
+    .second-section .portfolio-box{text-align: center; width: 100%;}
+    .second-section .gif-work{max-width: 450px;}
+}
+
+
+/* Mobile L */
+@media screen and (max-width: 500px){
+    .main-section{flex-wrap: wrap; height: auto;}
+
+    .zero-container{width: 100%; height: 100vh;}
+    .zero-container img{max-width: 230px;}
+
+    .first-container{width: 90%; background-color: rgb(228, 156, 250); margin: 100px 0 200px 0; flex-wrap: wrap;}
+    .box-1 {height: 65px;}
+    .box-1 h1{font-size: 50px;}
+    .box-1 img {max-width: 55px; top: 7px; left: 53px;}
+    .box-1 .github-link {width: 20px; height: 30px; padding: 0px 60px 5px 60px;}
+    .box-1 a{font-size: 20px;}
+
+    .second-section .portfolio-box{display: flex; justify-content: center; flex-wrap: wrap;}
+
+    .box-2 h2{font-size: 50px;}
+    .box-3 h3{font-size: 50px;}
+    .box-3 .boots {width: 20px; height: 25px; padding: 1px 60px 5px 60px;}
+    .box-3 .boots h5{font-size: 19px;}
+    .box-4{margin-bottom: 0;}
+    .box-4 h4{font-size: 50px;}
+    .box-4 .ux-ui {width: 60px; height: 60px;}
+    .box-4 .ux-ui h6{font-size: 18px;}
+
+
+    .second-section {width: auto; height: auto; margin: 0px;}
+    .my-work {
+        position: static;
+        transform: rotate(0deg);
+        left: auto;
+        margin: 50px 50px;}
+    .my-work h1{font-size: 100px; line-height: 80px;}
+    .my-work h2{font-size: 22px; margin-top: 10px; text-align: center;}
+
+    .second-section .header-work,
+    .second-section .gif-work{max-width: 380px;}
+}
+
+/* Mobile M */
+@media screen and (max-width: 375px){
+    .main-section{flex-wrap: wrap; height: auto;}
+
+    .zero-container{width: 100%; height: 100vh;}
+    .zero-container img{max-width: 230px;}
+
+    .first-container{width: 90%; background-color: rgb(228, 156, 250); margin: 100px 0 200px 0; flex-wrap: wrap;}
+    .box-1 {height: 65px;}
+    .box-1 h1{font-size: 50px;}
+    .box-1 img {max-width: 55px; top: 7px; left: 53px;}
+    .box-1 .github-link {width: 20px; height: 30px; padding: 0px 60px 5px 60px;}
+    .box-1 a{font-size: 20px;}
+
+    .box-2 h2{font-size: 50px;}
+    .box-3 h3{font-size: 50px;}
+    .box-3 .boots {width: 20px; height: 25px; padding: 1px 60px 5px 60px;}
+    .box-3 .boots h5{font-size: 19px;}
+    .box-4{margin-bottom: 0;}
+    .box-4 h4{font-size: 50px;}
+    .box-4 .ux-ui {width: 60px; height: 60px;}
+    .box-4 .ux-ui h6{font-size: 18px;}
+
+
+    .second-section {width: auto; height: auto; margin: 0px;}
+    .second-section .portfolio-box{display: flex; justify-content: center; flex-wrap: wrap;}
+
+    .my-work {
+        position: static;
+        transform: rotate(0deg);
+        left: auto;
+        margin: 50px 50px;}
+    .my-work h1{font-size: 100px; line-height: 80px;}
+    .my-work h2{font-size: 22px; margin-top: 10px; text-align: center;}
+
+    .second-section .header-work,
+    .second-section .gif-work{max-width: 330px;}
+}
+
+/* Mobile S */
+@media screen and (max-width: 320px){
+    .main-section{flex-wrap: wrap; height: auto;}
+
+    .zero-container{width: 100%; height: 100vh;}
+    .zero-container img{max-width: 230px;}
+
+    .first-container{width: 90%; background-color: rgb(228, 156, 250); margin: 100px 0 200px 0; flex-wrap: wrap;}
+    .box-1 {height: 65px;}
+    .box-1 h1{font-size: 40px;}
+    .box-1 img {max-width: 55px; top: 7px; left: 40px;}
+    .box-1 .github-link {width: 15px; height: 25px; padding: 0px 50px 5px 50px;}
+    .box-1 a{font-size: 20px;}
+
+    .box-2 h2{font-size: 40px;}
+    .box-3 h3{font-size: 40px;}
+    .box-3 .boots {width: 15px; height: 20px; padding: 1px 45px 5px 45px; right: 75px;}
+    .box-3 .boots h5{font-size: 16px;}
+    .box-4{margin-bottom: 0;}
+    .box-4 h4{font-size: 40px;}
+    .box-4 .ux-ui {width: 50px; height: 50px; right: 20px; top: 25px;}
+    .box-4 .ux-ui h6{font-size: 15px;}
+
+
+    .second-section {width: auto; height: auto; margin: 0px;}
+    .second-section div{display: flex; justify-content: center; flex-wrap: wrap;}
+
+    .my-work {
+        position: static;
+        transform: rotate(0deg);
+        left: auto;
+        margin: 50px 50px;}
+    .my-work h1{font-size: 100px; line-height: 80px;}
+    .my-work h2{font-size: 22px; margin-top: 10px; text-align: center;}
+
+    .second-section .header-work,
+    .second-section .gif-work{max-width: 280px;}
 }
