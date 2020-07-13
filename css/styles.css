@@ -241,7 +241,6 @@
     .second-section .gif-work{max-width: 450px;}
 }
 
-
 /* Mobile L */
 @media screen and (max-width: 500px){
     .main-section{flex-wrap: wrap; height: auto;}
@@ -249,7 +248,7 @@
     .zero-container{width: 100%; height: 100vh; order: 1;}
     .zero-container img{max-width: 230px;}
 
-    .first-container{width: 90%; background-color: rgb(228, 156, 250); margin: 150px 0 100px 0; flex-wrap: wrap;}
+    .first-container{width: 90%; background-color: rgb(228, 156, 250); margin: 150px 0 150px 0; flex-wrap: wrap;}
     .box-1 {height: 65px;}
     .box-1 h1{font-size: 50px;}
     .box-1 img {max-width: 55px; top: 7px; left: 53px;}
@@ -288,7 +287,7 @@
     .zero-container{width: 100%; height: 100vh; order: 1;}
     .zero-container img{max-width: 230px;}
 
-    .first-container{width: 90%; background-color: rgb(228, 156, 250); margin: 150px 0 100px 0; flex-wrap: wrap;}
+    .first-container{width: 90%; background-color: rgb(228, 156, 250); margin: 150px 0 150px 0; flex-wrap: wrap;}
     .box-1 {height: 65px;}
     .box-1 h1{font-size: 50px;}
     .box-1 img {max-width: 55px; top: 7px; left: 53px;}
@@ -327,7 +326,7 @@
     .zero-container{width: 100%; height: 100vh; order: 1;}
     .zero-container img{max-width: 230px;}
 
-    .first-container{width: 90%; background-color: rgb(228, 156, 250); margin: 150px 0 100px 0; flex-wrap: wrap;}
+    .first-container{width: 90%; background-color: rgb(228, 156, 250); margin: 150px 0 150px 0; flex-wrap: wrap;}
     .box-1 {height: 65px;}
     .box-1 h1{font-size: 40px;}
     .box-1 img {max-width: 55px; top: 7px; left: 40px;}
