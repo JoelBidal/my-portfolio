@@ -212,7 +212,7 @@
 .my-work{
     position: absolute;
     transform: rotate(-90deg);
-    left: -220px;
+    left: -230px;
     margin: 0 50px;
 }
 
@@ -239,6 +239,12 @@
 @media screen and (max-width: 2560px){
     .second-section .portfolio-box{text-align: center; width: 100%;}
     .second-section .gif-work{max-width: 450px;}
+}
+
+@media screen and (max-width: 1100px){
+    .my-work{left: -150px;}
+    .my-work h1{-webkit-text-stroke: 1px rgb(228, 156, 250); font-size: 60px;}
+    .my-work h2{font-size:20px;}
 }
 
 /* Mobile L */
