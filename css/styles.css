@@ -1,3 +1,4 @@
+body{overflow-x: hidden;}
 .main-section{
     width: 100%;
     height: 100vh;
@@ -6,7 +7,6 @@
     justify-content: flex-end;
     align-items: center;
 }
-
 .zero-container{
     width: 50%;
     height: auto;
@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .zero-container img{
     display: flex;
     align-items: center;
@@ -22,30 +21,24 @@
     max-width: 280px;
     border-radius: 50%;
 }
-
 .first-container{
     width: 50%;
-
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .box-1, .box-2, .box-3, .box-4 {width: 100%;}
 .box-4{margin-bottom: 20px;}
-
 .box-1{
     height: 81px;
     display: flex;
     align-items: center;
 }
-
 .box-1 .info-github{
     position: relative;
     right: 15px;
     bottom: 20px;
 }
-
 .box-1 img {
     max-width: 70px;
     height: auto;
@@ -55,7 +48,6 @@
     transform: rotate(9deg);
     filter: invert();
 }
-
 .box-1 .github-link{
     width: 35px;
     height: 35px;
@@ -64,14 +56,11 @@
     border-radius: 50px;
     background: #e0ff22;
     transform: rotate(8deg);
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .github-link:hover{background:#fff;}
-
 .box-1 a{
     text-decoration: none;
     color: #000;
@@ -79,7 +68,6 @@
     font-family: Sarabun;
     font-size: 25px;
 }
-
 .box-1 h1{
     -webkit-text-stroke: 1px white;
     color: transparent;
@@ -87,7 +75,6 @@
     font-family: Sarabun;
     font-weight: 800;
 }
-
 .box-2 h2{
     text-transform: uppercase;
     font-size: 70px;
@@ -95,12 +82,10 @@
     font-weight: 800;
     color: #fff;
 }
-
 .box-3{
     display: flex;
     align-items: center;
 }
-
 .box-3 h3{
     text-transform: uppercase;
     -webkit-text-stroke: 1px white;
@@ -109,7 +94,6 @@
     font-family: Sarabun;
     font-weight: 800;
 }
-
 .box-3 .boots{
     width: 20px;
     height: 30px;
@@ -118,28 +102,23 @@
     border-radius: 50px;
     background: #e0ff22;
     transform: rotate(-8deg);
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
     right: 100px;
     bottom: 35px;
 }
-
 .box-3 .boots h5{
     color: #000;
     font-weight: 800;
     font-family: Sarabun;
     font-size: 22px;
 }
-
 .box-4{
     display: flex;
     align-items: center;
 }
-
 .box-4 .ux-ui{
     width: 70px;
     height: 70px;
@@ -147,23 +126,19 @@
     border-radius: 50px;
     background: #e0ff22;
     transform: rotate(12deg);
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
     right: 27px;
     top: 35px;
 }
-
 .box-4 .ux-ui h6{
     color: #000;
     font-size: 22px;
     font-weight: 800;
     font-family: Sarabun;
 }
-
 .box-4 h4{
     text-transform: uppercase;
     font-size: 70px;
@@ -171,9 +146,7 @@
     font-weight: 800;
     color: #fff;
 }
-
-/* Segunda sección, trabajos */
-
+/*///////////////// TRABAJOS /////////////////////*/
 .second-section{
     height: auto;
     display: flex;
@@ -182,31 +155,51 @@
     justify-content: center;
     margin: 50px;
 }
-
-
-.second-section .header-work,
-.second-section .gif-work{
+.second-section .portfolio-box .header-work,
+.second-section .portfolio-box .gif-work{
     max-width: 450px;
     border: 2px solid #eee;
     margin: 7px;
 }
-
-.header-work{opacity: 1;}
+.header-work{
+    opacity: 1;
+    max-width: 922px;
+    margin: -2px;
+    border: 0px;
+}
 .second-section .gif-work{
     position: absolute;
     opacity: 0;
 }
-
-.header-work:hover{
-    opacity: 0;
-}
-
-
-.gif-work:hover{opacity: 1; transition: ease-out 0.6s;}
+.header-work:hover{opacity: 0;}
+.gif-work:hover{opacity: 1; transition: ease-out 0.4s;}
 
 .second-section a{
     text-decoration: none;
 }
+.portfolio-box-header{
+    width: 922px;
+    /* height: auto; */
+    text-align: center;
+    border: 2px solid #eee;
+    margin-bottom: 10px;
+    overflow: hidden;
+    z-index: 1000;
+}
+.portfolio-box-header .gif-work,
+.portfolio-box-header .header-work{
+    max-width: 922px;
+    margin: -2px;
+    border: 0px;
+}
+.portfolio-box-header .header-work{opacity: 1;}
+.portfolio-box-header .gif-work{
+    width: 922px;
+    position: absolute;
+    opacity: 0;
+}
+.portfolio-box-header .header-work:hover{opacity: 0;}
+.portfolio-box-header .gif-work:hover{opacity: 1; transition: ease-out 0.4s;}
 
 
 .my-work{
@@ -215,14 +208,12 @@
     left: -230px;
     margin: 0 50px;
 }
-
 .my-work h2{
     text-align: end;
     font-family: Sarabun;
     font-size: 25px;
     font-weight: 400;
 }
-
 .my-work h1{
     text-transform: uppercase;
     -webkit-text-stroke: 2px rgb(228, 156, 250);
@@ -232,21 +223,17 @@
     font-weight: 800;
 }
 
-
 /* Responsive Design */
 /* Screen XL */
-
 @media screen and (max-width: 2560px){
     .second-section .portfolio-box{text-align: center; width: 100%;}
-    .second-section .gif-work{max-width: 450px;}
+    .second-section .portfolio-box .gif-work{max-width: 450px;}
 }
-
 @media screen and (max-width: 1100px){
     .my-work{left: -150px;}
     .my-work h1{-webkit-text-stroke: 1px rgb(228, 156, 250); font-size: 60px;}
     .my-work h2{font-size:20px;}
 }
-
 /* Mobile L */
 @media screen and (max-width: 500px){
     .main-section{flex-wrap: wrap; height: auto;}
@@ -262,7 +249,11 @@
     .box-1 a{font-size: 20px;}
 
     .second-section .portfolio-box{display: flex; justify-content: center; flex-wrap: wrap;}
-
+    .portfolio-box-header {width: 450px;}
+    .second-section .portfolio-box-header .header-work,
+    .second-section .portfolio-box-header .gif-work{
+        max-width: 450px;
+    }
     .box-2 h2{font-size: 50px;}
     .box-3 h3{font-size: 50px;}
     .box-3 .boots {width: 20px; height: 25px; padding: 1px 60px 5px 60px;}
